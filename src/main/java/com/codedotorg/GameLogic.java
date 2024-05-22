@@ -34,6 +34,9 @@ public class GameLogic {
         if(predictedClass.equals("Lower")){
             return guessLower();
         }
+        if(predictedClass.equals("None")){
+            return guess;
+        }
         return -1;
     }
 
